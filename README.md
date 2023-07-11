@@ -1,3 +1,33 @@
+#Machine-learning-knn-ile-hesaplama (Calculation with KNN using machine learning)
+
+This code example demonstrates how to perform classification using the K-Nearest Neighbors (KNN) algorithm on a dataset. Here is how it works:
+
+    First, the math and collections libraries are imported, and the pandas library is imported as pd.
+
+    The dataset is loaded from Excel. The data_file variable should contain the file path of the dataset. The pd.read_excel() function is used to load the dataset into a DataFrame named df.
+
+    The input features (X) are determined. Here, relevant columns in the df DataFrame are selected and converted into a numpy array.
+
+    The euclidean_distance() function is defined to compute the Euclidean distance between two vectors. This function calculates the Euclidean distance.
+
+    The knn_predict() function is defined to implement the KNN algorithm. This function finds the nearest neighbors for a test data point, counts the classes of the neighbors, and returns the most common class as the prediction.
+
+    Test data inputs are taken from the user. For each feature, values are taken from the user using a for loop and added to the test_data list.
+
+    The value of K is determined. The k variable is used to specify the number of neighbors to be used in the KNN algorithm.
+
+    The knn_predict() function is called to make predictions, and the result is assigned to the prediction variable.
+
+    It prints the Euclidean distances and neighbors with the K value.
+
+    It prints the prediction to the screen.
+
+This code example provides a basic understanding and implementation of the KNN algorithm. By updating your dataset and relevant columns accordingly, you can run the KNN algorithm on your own data.
+
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+
 # Machine-learning-knn-ile-hesaplama
 Bu kod örneği, K-En Yakın Komşu (KNN) algoritmasını kullanarak bir veri setinde sınıflandırma yapmayı göstermektedir. İşleyişi şu şekildedir:
 
